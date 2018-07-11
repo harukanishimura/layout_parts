@@ -1,5 +1,81 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.wrapper{
+	margin: 0 auto;
+}
 
-/* 回答はここに書いてね */
+body {
+	width: 100%;
+}
+
+.article-wrap {
+	width: 900px;
+	background-color: #eff3f4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto;
+}
+
+.area1 {
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #3274ae;
+	float: left;
+}
+
+.box1 {
+	width: 230px;
+	background-color: #eaf4ff;
+	border: solid 10px; #02236;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 20px;
+}
+
+.p {
+	font-size: 16px;
+	line-height: 16px;
+	margin: auto;
+}
+
+.area2 {
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #3274ae;
+	float: left;
+}
+
+.box2 {
+	width: 230px;
+	background-color: #eaf4ff;
+	border: 10px;
+	border: solid 10px; #02236;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 20px;
+}
+
+.area3 {
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #3274ae;
+	float: left;
+
+}
+
+.box3 {
+	width: 230px;
+	background-color: #eaf4ff;
+	border: solid 10px; #02236;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 20px;
+}
+
+.clearfix: after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}

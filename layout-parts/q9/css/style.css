@@ -2,4 +2,56 @@
 
 /* 回答はここに書いてね */
 
+.q9{
+	background-color: #ecf1f2;
+	padding: 10px;
+}
+
+.block{
+	display: block;
+}
+
+.same_content{
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.small_box{
+	background-color: #fff;
+	font-size: 16px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.dif12{
+	width: 100%;
+}
+
+.dif6{
+	width: 50%;
+}
+
+.dif4{
+	width:33.33333%
+}
+
+.dif3{
+	width: 25%
+}
+
+.dif24{
+	width: 20%;
+}
+
+.dif2{
+	width: 16.66666%;
+}
+
+
 /* 回答はここに書いてね */
+
+/*全体に対するpaddingを10px、same_content（共通の囲い）に対するpaddingを10pxにして
+合計で全ての余白が20pxになるようにしました。*/

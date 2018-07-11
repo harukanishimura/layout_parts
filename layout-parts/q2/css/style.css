@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.article-wrap{
+	width: 900px;
+	padding: 20px;
+	background-color: #eff3f4;
+	margin: auto;
+}
+
+.block1 {
+	font-size: 18px;
+	line-height: 22px;
+	word-break: break-all
+}
+
+.img1{
+	float:left;
+ 	margin-right:20px;
+ 	margin-bottom:10px;
+}
+.block2 {
+	font-size: 18px;
+	line-height: 22px;
+	word-break: break-all
+}
+
+.img2{
+	float:right;
+	margin-left:20px;
+	margin-bottom:10px;
+}
 
 /* 回答はここに書いてね */

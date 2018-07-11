@@ -1,5 +1,163 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+form{
+	margin: 0 auto;
+	width: 720px;
+	height: 250px;
+	padding: 20px;
+	background-color: #ECF1F2;
+	position: relative;
+}
+
+.top{
+	width: 700px;
+	height: 24px;
+	position: relative;
+	margin: 0 10px 12px 10px;
+}
+
+.tytle{
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #ecf1f2;
+	display: inline-block;
+	position: relative;
+}
+
+.top:after{
+	position: absolute;
+	top: 50%;
+	width: 80%;
+	height: 1px;
+	background-color: #ccc;
+	content: "";
+}
+
+.left{
+	position: absolute;
+	float:left;
+	width: 320px;
+	height: 203px;
+	list-style: none;
+	margin: 0;
+}
+
+.right{
+	float: right;
+}
+
+.required{
+	color: #F00;
+}
+
+.r{
+	float: right;
+	margin:7px;
+}
+
+/*label{
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+	text-align: right;
+}*/
+
+input,textarea{
+	width: 180px;
+	height: 25px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+input: focus,textarea:focus{
+	border-color: #000;
+}
+
+textarea{
+	vertical-align: top;
+	height: 203px;
+	width: 380px;
+	resize: none;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #FFF;
+	font-size: 12px;
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	position: absolute;
+	left: 330px;
+	top: 0;
+}
+
+.div_button{
+	margin-left: 5em;
+	text-align: right;
+}
+
+.div_radio{
+	position: relative;
+	margin-right:60px;
+}
+
+.sex{
+	position: relative;
+	margin-left: 30px;
+}
+.radio{
+	cursor: pointer;
+}
+
+.radio_input{
+	display: none;
+}
+
+.radio_text{
+	position: relative;
+	display: inline-block;
+	padding: 3px 3px 3px 20px;
+}
+
+.button_design{
+	padding: 0 10px;
+	border-radius: 5px;
+	background-color: #00BCD4;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 26px;
+	outline: 0;
+}
+
+.radio_text::before{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	margin-top: -8px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	content:'';
+}
+
+.radio_input:checked + .radio_text::after{
+	position: absolute;
+	top:50%;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background-color: #00BCD4;
+	border-radius: 50%;
+	content: '';
+}
+
+.tameshi{
+	border: none;
+	outline: 0;
+}
 
 /* 回答はここに書いてね */
