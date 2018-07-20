@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-form {
+.form {
 	margin: 0 auto;
 	width: 720px;
 	height: 250px;
@@ -65,18 +65,14 @@ form {
 	margin:7px;
 }
 
-input,textarea {
+.common_input, .textarea {
 	width: 180px;
 	height: 25px;
 	box-sizing: border-box;
 	border-radius: 3px;
 }
 
-input: focus,textarea:focus {
-	border-color: #000;
-}
-
-textarea {
+.textarea {
 	vertical-align: top;
 	height: 100%;
 	width: 100%;

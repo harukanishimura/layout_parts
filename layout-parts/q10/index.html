@@ -37,7 +37,7 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-<form>
+<form class="form">
     <div class="top">
         <p class="form_exercise">Form&#160;Exercise&#160;</p>
     </div>
@@ -45,34 +45,34 @@
         <div class="left">
                 <div class="is_right label">
                     <label for="name">name<span class="required">*</span></label>
-                    <input class="border_none" type="text" id="name" name="user_name"required/>
+                    <input class="border_none common_input" type="text" id="name" name="user_name"required/>
                 </div>
                 <div class="is_right div_radio">
                     <span for="sex">Sex</span>
                         <label class="radio">
-                            <input class="radio_input" type="radio" name="radiobutton" value="male">
+                            <input class="radio_input common_input" type="radio" name="radiobutton" value="male">
                             <span class="radio_text">male</span>
                         </label>
                         <label class="radio">
-                            <input class="radio_input" type="radio" name="radiobutton" value="female">
+                            <input class="radio_input common_input" type="radio" name="radiobutton" value="female">
                             <span class="radio_text">female</span>
                         </label>
                     </span>
                 </div>
                 <div class="is_right div_email">
                     <label for="email">Email<span class="required">*</span></label>
-                    <input class="border_none" type="email" id="mail" placeholder="ex)hoge@gmail.com" name="user_email" required/>
+                    <input class="border_none common_input" type="email" id="mail" placeholder="ex)hoge@gmail.com" name="user_email" required/>
                 </div>
                 <div class="is_right div_telephone">
                     <label for="telephone">Telephone</label>
-                    <input class="border_none" type="text" id="telephone" placeholder="ex)09012345678" name="user_telephone"/>
+                    <input class="border_none common_input" type="text" id="telephone" placeholder="ex)09012345678" name="user_telephone"/>
                 </div>
                 <div class="is_right div_button">
                     <button type="submit" class="button_design">Submit</button>
                 </div>
         </div>
         <div class="right">
-                <textarea id="msg" placeholder="Please fill in the message..." name="user_message"></textarea>
+                <textarea class="textarea" placeholder="Please fill in the message..." name="user_message"></textarea>
         </div>
     </div>
 </form>

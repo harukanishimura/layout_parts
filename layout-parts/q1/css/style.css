@@ -12,15 +12,11 @@
 	margin: 0 auto;
 }
 
-body {
-	width: 100%;
-}
-
 .article-wrap {
 	width: 900px;
 	background-color: #eff3f4;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px;
+	padding-left: 0;
 	margin:auto;
 }
 
@@ -40,7 +36,7 @@ body {
 	padding: 20px;
 }
 
-.p {
+.text {
 	font-size: 16px;
 	line-height: 16px;
 	margin: auto;

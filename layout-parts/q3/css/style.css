@@ -7,7 +7,7 @@
 	table-layout: fixed;
 }
 
-table th {
+.main th {
 	padding: 10px;
 	color: white;
 	background-color: #2244aa;
@@ -15,16 +15,16 @@ table th {
 	line-height: 26px;
 	font-size: 18px;
 }
-table td {
+.main td {
 	padding: 10px;
 	border: solid #dedede 1px;
 }
 
-.main tr:nth-child(2n+1) {
+.main .list:nth-child(2n+1) {
 	background-color: #ecf1f2;
 }
 
-tr:last-child {
+.main .list:last-child {
 	border-top: dashed #000 2px;
 }
 
