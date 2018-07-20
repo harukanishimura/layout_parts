@@ -2,16 +2,16 @@
 
 /* 回答はここに書いてね */
 
-.big_box{
+.big_box {
 	width: 500px;
 	height: 500px;
 	background-color: #ECF1F2;
 	position: relative;
-	margin: auto;
+	margin: 0 auto;
 
 }
 
-.box_inner{
+.box_inner {
 	font-weight: bold;
 	font-size: 30px;
 	display: flex;
@@ -22,63 +22,63 @@
 	height: 100px;
 }
 
-.box1{
+.box1 {
 	background-color: #ffefd3;
 	top: 40px;
 	left: 200px;
 	z-index: 1;
 }
 
-.box2{
+.box2 {
 	background-color: #7084de;
 	top: 120px;
 	left: 280px;
 	z-index: 2;
 }
 
-.box3{
+.box3 {
 	background-color: #d0ecea;
 	top: 200px;
 	left: 360px;
 	z-index: 3;
 }
 
-.box4{
+.box4 {
 	background-color: #8b7a5e;
 	top: 280px;
 	left: 280px;
 	z-index: 4;
 }
 
-.box5{
+.box5 {
 	background-color: #9fd6d2;
 	top: 360px;
 	left: 200px;
 	z-index: 5;
 }
 
-.box6{
+.box6 {
 	background-color: #fffee4;
 	top: 280px;
 	left: 120px;
 	z-index: 6;
 }
 
-.box7{
+.box7 {
 	background-color: #deae70;
 	top: 200px;
 	left: 40px;
 	z-index: 7;
 }
 
-.box8{
+.box8 {
 	background-color: #de70cf;
 	top: 120px;
 	left: 120px;
 	z-index: 8;
 }
 
-.box8:before{
+.box8:before {
 	content: "";
 	width: 20px;
 	height:20px;

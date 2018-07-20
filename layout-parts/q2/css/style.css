@@ -1,31 +1,27 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.article-wrap{
+.article-wrap {
 	width: 900px;
 	padding: 20px;
 	background-color: #eff3f4;
 	margin: auto;
+	box-sizing: border-box;
 }
 
-.block1 {
+.block {
 	font-size: 18px;
 	line-height: 22px;
 	word-break: break-all
 }
 
-.img1{
+.left {
 	float:left;
  	margin-right:20px;
  	margin-bottom:10px;
 }
-.block2 {
-	font-size: 18px;
-	line-height: 22px;
-	word-break: break-all
-}
 
-.img2{
+.right {
 	float:right;
 	margin-left:20px;
 	margin-bottom:10px;

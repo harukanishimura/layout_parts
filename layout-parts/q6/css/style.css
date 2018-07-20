@@ -2,16 +2,12 @@
 
 /* 回答はここに書いてね */
 
-.q6{
-	display: table;
-	margin: auto;
-}
 
-.inline{
+.inline {
 	display: inline-block;
 }
 
-.box1{
+.small {
 	height: 26px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -21,7 +17,7 @@
 	margin: 5px;
 }
 
-.box2{
+.middle {
 	height: 32px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -31,7 +27,7 @@
 	margin: 5px;
 }
 
-.box3{
+.large {
 	height: 38px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -42,22 +38,22 @@
 
 }
 
-.common{
+.common {
 	background-color: #00bcd4;
 	color: #fff;
 }
 
-.error{
+.error {
 	background-color: #ff4081;
 	color: #fff;
 }
 
-.disabled{
+.disabled {
 	background-color: #e5e5e5;
 	color: #fff;
 }
 
-.shadow{
+.shadow {
 	background-color: #fff;
 	color: #222;
 	box-shadow:

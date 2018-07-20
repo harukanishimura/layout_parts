@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-.wrapper{
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.wrapper {
 	margin: 0 auto;
 }
 
@@ -16,14 +24,14 @@ body {
 	margin:auto;
 }
 
-.area1 {
+.area {
 	margin-left: 20px;
 	padding: 20px;
 	background-color: #3274ae;
 	float: left;
 }
 
-.box1 {
+.square {
 	width: 230px;
 	background-color: #eaf4ff;
 	border: solid 10px; #02236;
@@ -36,46 +44,4 @@ body {
 	font-size: 16px;
 	line-height: 16px;
 	margin: auto;
-}
-
-.area2 {
-	margin-left: 20px;
-	padding: 20px;
-	background-color: #3274ae;
-	float: left;
-}
-
-.box2 {
-	width: 230px;
-	background-color: #eaf4ff;
-	border: 10px;
-	border: solid 10px; #02236;
-	box-sizing: border-box;
-	margin: auto;
-	padding: 20px;
-}
-
-.area3 {
-	margin-left: 20px;
-	padding: 20px;
-	background-color: #3274ae;
-	float: left;
-
-}
-
-.box3 {
-	width: 230px;
-	background-color: #eaf4ff;
-	border: solid 10px; #02236;
-	box-sizing: border-box;
-	margin: auto;
-	padding: 20px;
-}
-
-.clearfix: after{
-	content: "";
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
 }

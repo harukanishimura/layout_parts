@@ -3,42 +3,43 @@
 /* 回答はここに書いてね */
 
 
-.q8{
+.q8 {
 	display: table;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
-.content{
+.content {
 	display: table-cell;
 	padding: 20px;
 	text-align: center;
 	box-sizing: border-box;
 }
 
-.no1{
+.no1 {
 	background-color: #fdc8b8;
 	width: 100px;
 }
 
-.no2{
+.no2 {
 	background-color: #e0abd9;
 }
 
-.no3{
+.no3 {
 	background-color: #b6d8ed;
 	width: 100px;
 }
 
-.no4{
+.no4 {
 	background-color: #e5d32e;
 }
 
-.no5{
+.no5 {
 	background-color: #e4e67c;
 }
 
-.no6{
+.no6 {
 	background-color: #8fdcad;
 	width: 500px;
 }

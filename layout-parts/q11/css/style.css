@@ -2,83 +2,62 @@
 
 /* 回答はここに書いてね */
 
-.all_wrap{
+.all_wrap {
 	overflow: hidden;
 	width: 500px;
 	height: 333px;
 	margin: 0 auto;
-}
-
-.image_wrap{
-    position: relative;
-    margin: auto;
-    cursor: pointer;
-}
-
-.image_wrap:hover{
-/*	transform: scale(1.5,1.5);*/
-	width: 500px;
-	height: 333px;
-}
-
-.image1{
-	width: 500px;
-	height: 333px;
-	transition: all .5s;
-}
-
-/*.up_wrap{
-	position: absolute;
-	margin: -333px auto;
-	width: 500px;
-	height: 333px;
-	background-color: #0000;
-}*/
-
-/*.up_wrap:hover{
-	transform: translateY(-333px);
-	width: 500px;
-	height: 333px;
-	transition: all .5s;
-}*/
-
-.image_wrap:hover > .image1{
-	transform: scale(1.5,1.5);
-}
-
-
-.gradient{
-	position: absolute;
-	margin: 0 auto;
-	width: 500px;
-	height: 333px;
-	background: linear-gradient(#0000,#0008);
-	transition: all .5s;
 	position: relative;
 }
 
-.image_wrap:hover > .gradient{
-	transform: translateY(-333px);
-	width: 500px;
-	height: 333px;
+.image_wrap {
+    position: relative;
+    cursor: pointer;
+    width: 500px;
+    height: 333px;
 }
 
-.text{
+.main_image {
+	width: 100%;
+	height: 100%.;
+	transition: all .5s;
+}
+
+.image_wrap:hover > .main_image {
+	transform: scale(1.5);
+}
+
+
+.gradient {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#0000,#0008);
+	transition: all .5s;
+	position: relative;
+	top: 0;
+	margin: auto;
+}
+
+.image_wrap:hover > .gradient {
+	top: -333px;
+	left: 0;
+}
+
+.text {
 	font-size: 16px;
 	line-height: 16px;
-	margin: 20px 20px 20px 20px;
+	padding: 20px;
 	position: absolute;
 	bottom: 0;
 	color: #fff;
 	word-break: break-all;
 }
 
-.animation{
-	/*position: relative;*/
+.animation {
 	margin: 0 auto;
 }
 
-.circle1{
+.circle1 {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
